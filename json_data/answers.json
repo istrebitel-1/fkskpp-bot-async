@@ -1,0 +1,339 @@
+{
+	"intents": [
+		{
+			"type": "text",
+			"word": false,
+			"patterns": ["/help", "/start"],
+			"response": ["Привіт, спасибі, що використовуєш нашого бота! Він просто існує в бесіді і випадково кидає вкидання. Приємного використання."]
+		},
+		{
+			"type": "text",
+			"word": true,
+			"patterns": ["сп"],
+			"response": "раведливо"
+		},
+		{
+			"type": "text",
+			"word": true,
+			"patterns": ["ху"],
+			"response": "ета"
+		},
+		{
+			"type": "text",
+			"word": true,
+			"patterns": ["а?"],
+			"response": "Лови аптечку"
+		},
+		{
+			"type": "text",
+			"word": true,
+			"patterns": ["подлива"],
+			"response": "Ммммм..."
+		},
+		{
+			"type": "text",
+			"word": true,
+			"patterns": ["dead", "дед"],
+			"response": "inside"
+		},
+		{
+			"type": "text",
+			"word": true,
+			"patterns": ["кринжатура"],
+			"response": "нихуя ты высрал"
+		},
+		{
+			"type": "text",
+			"word": true,
+			"patterns": ["барак"],
+			"response": "Обама?"
+		},
+		{
+			"type": "text",
+			"word": false,
+			"patterns": ["oh shit, i'm sorry!"],
+			"response": "Sorry for what? Our daddy taught us not to be ashamed of our dicks, 'specially since they're such good size and all"
+		},
+		{
+			"type": "text",
+			"word": false,
+			"patterns": ["sorry for what? our daddy taught us not to be ashamed of our dicks, 'specially since they're such good size and all"],
+			"response": "Yeah, I see that! Your daddy gave you good advice."
+		},
+		{
+			"type": "text",
+			"word": false,
+			"patterns": ["yeah, i see that! your daddy gave you good advice."],
+			"response": "It gets bigger when I pull on it."
+		},
+		{
+			"type": "text",
+			"word": false,
+			"patterns": ["it gets bigger when i pull on it."],
+			"response": "Mmmmmm..."
+		},
+		{
+			"type": "text",
+			"word": false,
+			"patterns": ["mmmmmm...", "mmmm"],
+			"response": "Sometimes, I pull on it so hard, I rip the skin!"
+		},
+		{
+			"type": "text",
+			"word": false,
+			"patterns": ["sometimes, i pull on it so hard, i rip the skin!"],
+			"response": "Well my daddy taught me a few things too, like, uh, how not to rip the skin by using someone else's mouth, instead of your own hands."
+		},
+		{
+			"type": "text",
+			"word": false,
+			"patterns": ["well my daddy taught me a few things too, like, uh, how not to rip the skin by using someone else's mouth, instead of your own hands."],
+			"response": "Will you show me?"
+		},
+		{
+			"type": "text",
+			"word": false,
+			"patterns": ["will you show me?"],
+			"response": "I'd be right happy to!"
+		},
+
+
+
+		{
+			"type": "photo",
+			"word": false,
+			"patterns": ["жараж", "жаров"],
+			"response": "photo-191163480_457239050"
+		},
+		{
+			"type": "photo",
+			"word": false,
+			"patterns": ["жарамж", "жаромв"],
+			"response": "photo-191163480_457239181"
+		},
+		{
+			"type": "photo",
+			"word": false,
+			"patterns": ["со смыслом", "сос мыслом", "сос мыс лом"],
+			"response": "photo-191163480_457239023"
+		},
+		{
+			"type": "photo",
+			"word": true,
+			"patterns": ["коммунизм"],
+			"response": "photo-191163480_457239045"
+		},
+		{
+			"type": "photo",
+			"word": false,
+			"patterns": ["преисполнился", "я в своем познании настолько преисполнился", "идущий в демид",
+						"я в своём познании настолько преисполнился", "идущий к реке"],
+			"response": "photo-191163480_457239073"
+		},
+		{
+			"type": "photo",
+			"word": false,
+			"patterns": ["лично мне ведро"],
+			"response": "photo-191163480_457239133"
+		},
+		{
+			"type": "photo",
+			"word": false,
+			"patterns": ["ровор"],
+			"response": "photo-191163480_457239135"
+		},
+		{
+			"type": "photo",
+			"word": false,
+			"patterns": ["а по жопе", "а по жопе?", "а по жепе", "а по жепе?"],
+			"response": "photo-191163480_457239071"
+		},
+		{
+			"type": "photo",
+			"word": false,
+            "patterns": ["спорт",
+                "спорт - это жизнь", "спорт, а не спирт"],
+            "response": "photo-191163480_457239064"
+        },
+        {
+			"type": "photo",
+			"word": false,
+            "patterns": ["б корпус", "корпус б",
+                "б-корпус", "корпус-б"],
+            "response": "photo-191163480_457239055"
+        },
+        {
+			"type": "photo",
+			"word": false,
+            "patterns": ["1 сентября", "1-е сентября",
+                "первое сентября"],
+            "response": "photo-191163480_457239039"
+        },
+		{
+			"type": "photo",
+			"word": true,
+            "patterns": ["тимрот", "пппп",
+                "ппп", "игра началась"],
+            "response": "photo-191163480_457239042"
+		},
+		{
+			"type": "photo",
+			"word": true,
+            "patterns": ["f", "эф"],
+            "response": "photo-191163480_457239044"
+        },
+        {
+			"type": "photo",
+			"word": false,
+            "patterns": ["27 * 4", "27*4"],
+            "response": "photo-191163480_457239051"
+        },
+        {
+			"type": "photo",
+			"word": true,
+            "patterns": ["шакал", "сжимаешь"],
+            "response": "photo-191163480_457239132"
+        },
+        {
+			"type": "photo",
+			"word": false,
+            "patterns": ["бакалавр", "стандартный бакалавр"],
+            "response": "photo-191163480_457239049"
+        },
+        {
+			"type": "photo",
+			"word": false,
+            "patterns": ["ну что там с деньгами", "ну что там с деньгами?",
+                 "ну как там с деньгами", "ну как там с деньгами?"],
+            "response": "photo-191163480_457239059"
+		},
+		{
+			"type": "photo",
+			"word": true,
+            "patterns": ["бан"],
+            "response": "photo-191163480_457239031"
+		},
+		{
+			"type": "photo",
+			"word": false,
+            "patterns": ["это бан", "ну это бан", "ну, это бан"],
+            "response": "photo-191163480_457239031"
+		},
+		{
+			"type": "photo",
+			"word": false,
+            "patterns": ["степа", "степан", "стёпа", "степы больше нет", "стёпы больше нет"],
+            "response": "photo-191163480_457239145"
+		},
+		{
+			"type": "photo",
+			"word": true,
+            "patterns": ["степ"],
+            "response": "photo-191163480_457239143"
+		},
+		{
+			"type": "photo",
+			"word": true,
+            "patterns": ["фулл"],
+            "response": "photo-191163480_457239148"
+		},
+		{
+			"type": "photo",
+			"word": false,
+			"patterns": ["иди своей дорогой сталкер", "иди своей дорогой, сталкер", "иди нахуй", "пошёл нахуй",
+						"пошел нахуй"],
+            "response": "photo-191163480_457239158"
+		},
+		{
+			"type": "photo",
+			"word": true,
+            "patterns": ["ок", "окей", "хорошо", "ладно", "окь", "окс", "оки", "окъ"],
+            "response": "photo-191163480_457239163"
+		},
+		{
+			"type": "photo",
+			"word": true,
+            "patterns": ["кринж", "кринжатина", "кринжовник", "кринге", "cringe"],
+            "response": "photo-191163480_457239164"
+		},
+		{
+			"type": "photo",
+			"word": true,
+            "patterns": ["sex", "$ex", "секс", "$екс"],
+            "response": "photo-191163480_457239165"
+		},
+		{
+			"type": "photo",
+			"word": false,
+            "patterns": ["я срать", "пойду посру"],
+            "response": "photo-191163480_457239171"
+		},
+		{
+			"type": "photo",
+			"word": false,
+            "patterns": ["срать охота", "срать охото"],
+            "response": "photo-191163480_457239172"
+		},
+		{
+			"type": "photo",
+			"word": false,
+            "patterns": ["человек яйца", "человек-яйца"],
+            "response": "photo-191163480_457239166"
+		},
+		{
+			"type": "photo",
+			"word": true,
+            "patterns": ["adios", "адьёс", "адьес"],
+            "response": "photo-191163480_457239170"
+		},
+		{
+			"type": "photo",
+			"word": false,
+            "patterns": ["ты чего наделал", "ты чево наделал", "ты что наделал", "ты што наделал"],
+            "response": "photo-191163480_457239177"
+		},
+
+
+
+		{
+			"type": "one of many (pic)",
+			"word": true,
+			"patterns": ["влад"],
+			"response": ["photo-191163480_457239113", "photo-191163480_457239114", "photo-191163480_457239115", "photo-191163480_457239116" ,
+			"photo-191163480_457239117", "photo-191163480_457239118" , "photo-191163480_457239119", "photo-191163480_457239120",
+			"photo-191163480_457239121", "photo-191163480_457239122" , "photo-191163480_457239123", "photo-191163480_457239124",
+			"photo-191163480_457239125", "photo-191163480_457239126" , "photo-191163480_457239127", "photo-191163480_457239128",
+			"photo-191163480_457239129", "photo-191163480_457239130" , "photo-191163480_457239131"
+			],
+			"quantity": "19"
+		},
+		{
+			"type": "one of many (pic)",
+			"word": true,
+            "patterns": ["рандом"],
+            "response": ["photo-191163480_457239073", "photo-191163480_457239067", "photo-191163480_457239066", "photo-191163480_457239025", "photo-191163480_457239183"],
+            "quantity": "4"
+		},
+		{
+			"type": "one of many (pic)",
+			"word": true,
+			"patterns": ["непонял", "чево?", "чево", "каво", "чего", "чего?", "што", "што?", "что", "что?"],
+			"response": ["photo-191163480_457239162", "photo-191163480_457239136", "photo-191163480_457239140"],
+			"quantity": "3"
+		},
+		{
+			"type": "one of many (pic)",
+			"word": true,
+			"patterns": ["бля", "блять"],
+			"response": ["photo-191163480_457239173", "photo-191163480_457239176"],
+			"quantity": "2"
+		},
+		{
+			"type": "one of many (pic)",
+			"word": true,
+			"patterns": ["пиздец", "пизда"],
+			"response": ["photo-191163480_457239178", "photo-191163480_457239176"],
+			"quantity": "2"
+		}
+	]
+}
