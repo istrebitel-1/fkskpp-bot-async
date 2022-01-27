@@ -1,6 +1,6 @@
 {
     "app_name": "fkskpp-bot",
     "version": "0.4.0",
-    "runtime": "DEV",
+    "runtime": "PROD",
     "debug": false
 }
