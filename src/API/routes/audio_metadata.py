@@ -13,12 +13,10 @@ async def info():
 
 @app.get('/audio')
 async def audio():
-    with open('json_data/music.json', 'r', encoding='utf-8') as read_file:
-        music = load(read_file)
 
     html = '<table border="1">'
 
-    for item in music['music']:
+    for item in music_json.music['music']:
         html += f'''
             <tr id="{item['track_id']}">
                 <td>{item['name']}</td>
