@@ -19,4 +19,4 @@ def start_api():
 
 if __name__ == '__main__':
     Process(target=start_bot).start()
-    Process(target=start_api).start()
+    #Process(target=start_api).start()
