@@ -1,1 +1,2 @@
-from .blueprints import bps
+from .API import app
+from .bot import bps, TOKEN

@@ -1,13 +1,22 @@
 from vkbottle import Bot
-from src import bps
+from src import app, bps, TOKEN
+from multiprocessing import Process
 
-import os
+
+def start_bot():
+    bot = Bot(token=TOKEN)
+
+    for bp in bps:
+        bp.load(bot)
+
+    bot.run_forever()
 
 
-TOKEN = os.environ['TOKEN']
-bot = Bot(token=TOKEN)
+def start_api():
+    import uvicorn
+    uvicorn.run(app)
 
-for bp in bps:
-    bp.load(bot)
 
-bot.run_forever()
+if __name__ == '__main__':
+    Process(target=start_bot).start()
+    Process(target=start_api).start()
