@@ -13,6 +13,7 @@ def start_bot():
 
 
 def start_api():
+    print('kekw')
     import uvicorn
     uvicorn.run(app)
 
