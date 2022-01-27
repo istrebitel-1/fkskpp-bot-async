@@ -1,2 +1,2 @@
 from .API import app
-from .bot import bps, TOKEN
+from .bot import bps, TOKEN, config
