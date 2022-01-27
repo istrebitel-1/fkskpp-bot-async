@@ -15,7 +15,7 @@ async def info():
 async def audio():
 
     html = '<table border="1">'
-
+    music_json.upd()
     for item in music_json.music_json['music']:
         html += f'''
             <tr id="{item['track_id']}">
