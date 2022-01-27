@@ -1,5 +1,5 @@
 from .. import app
-from src.bot.blueprints.chat import music_json
+from src.bot.blueprints.chat import music
 
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
@@ -14,8 +14,10 @@ async def info():
 @app.get('/audio')
 async def audio():
 
-    html = f'<p>{music_json.music_json}</p> <table border="1">'
+    music_json = music()
     music_json.upd()
+
+    html = f'<p>{music_json.music_json}</p> <table border="1">'
     for item in music_json.music_json['music']:
         html += f'''
             <tr id="{item['track_id']}">
@@ -56,7 +58,6 @@ async def audio_delete(track_id):
     with open('json_data/music.json', 'w', encoding='utf-8') as f:
         dump(music, f, indent=4, ensure_ascii=False)
 
-    music_json.upd()
     f.close()
 
     return {'success': True}
