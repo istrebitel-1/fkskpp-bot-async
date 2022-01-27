@@ -14,7 +14,7 @@ async def info():
 @app.get('/audio')
 async def audio():
 
-    html = '<table border="1">'
+    html = f'<p>{music_json.music_json}</p> <table border="1">'
     music_json.upd()
     for item in music_json.music_json['music']:
         html += f'''
