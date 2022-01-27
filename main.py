@@ -1,5 +1,5 @@
 from vkbottle import Bot
-from src import app, bps, TOKEN
+from src import app, bps, TOKEN, config
 from multiprocessing import Process
 
 
@@ -18,5 +18,9 @@ def start_api():
 
 
 if __name__ == '__main__':
-    Process(target=start_bot).start()
-    Process(target=start_api).start()
+    if config['runtime'] == 'DEV':
+        Process(target=start_bot).start()
+        Process(target=start_api).start()
+
+    elif config['runtime'] == 'PROD':
+        start_bot()
