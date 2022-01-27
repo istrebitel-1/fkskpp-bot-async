@@ -16,7 +16,7 @@ async def audio():
 
     html = '<table border="1">'
 
-    for item in music_json.music['music']:
+    for item in music_json.music_json['music']:
         html += f'''
             <tr id="{item['track_id']}">
                 <td>{item['name']}</td>
