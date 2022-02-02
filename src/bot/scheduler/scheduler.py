@@ -1,4 +1,3 @@
-import imp
 from src.bot.parsers.news import get_news
 from vk_api import VkApi
 import schedule
