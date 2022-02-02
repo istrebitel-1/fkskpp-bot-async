@@ -1,6 +1,7 @@
+from email import message
 from src.bot.parsers import (
     get_5050, coupons, coupons_search,
-    parse_audio, add_audio
+    parse_audio, add_audio, get_news
 )
 
 from vkbottle.bot import Blueprint, Message, rules
@@ -129,6 +130,13 @@ async def response(message, msg, chat=None):
         pic_url = 'photo-191163480_457239027'
         await message.answer(attachment=pic_url)
         await asyncio.sleep(3)
+
+    elif 'слава (мерлоу)' in respns:
+        new = get_news()
+        msg = f'{new[0]}\n\n{new[1]}\n\n{new[2]}'
+        await message.answer(msg)
+        return
+
 
     for intent in intents['intents']:
         for pattern in intent['patterns']:

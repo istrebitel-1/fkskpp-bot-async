@@ -1,4 +1,5 @@
 from .blueprints import bps
+from .scheduler import do_schedule
 
 from json import load
 import os
